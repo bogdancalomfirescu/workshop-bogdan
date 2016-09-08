@@ -39,13 +39,13 @@ public abstract class TodoStorage {
 	}
 
 	/**
-	 * Met a jour la liste des t‚ches
-	 * @param todosAsString La liste des t‚ches sous la formes d'un tableau JSON serialisÈ 
+	 * Met a jour la liste des t√¢ches
+	 * @param todosAsString La liste des t√¢ches sous la formes d'un tableau JSON serialis√© 
 	 */
 	public abstract void doPut(JSONArray todosAsString) throws IOException;
 	
 	/**
-	 * @return les taches sous la forme d'un {@link JSONArray}
+	 * @return les taches sous la forme d'un {@link JSONArray} 
 	 */
 	public abstract JSONArray get() throws IOException ;
 
